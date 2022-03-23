@@ -10,7 +10,6 @@ namespace EventHubsStartingPosition
         private static readonly TimeSpan _testDuration = TimeSpan.FromSeconds(5);
         private static readonly ReadEventOptions _readOptions = new ReadEventOptions { MaximumWaitTime = TimeSpan.FromSeconds(1) };
 
-
         static async Task Main(string[] args)
         {
             Console.WriteLine($"Each test will run for {_testDuration}");
